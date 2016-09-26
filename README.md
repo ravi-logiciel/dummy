@@ -30,7 +30,7 @@ Route::group(['middleware' => ['jwt.auth']], function() {
 	//put here routes
 });
 ```
-###** .env file elements **###
+###**.env file elements**###
 **JWT_SECRET**={sercret_token_string}
 **JWT_BLACKLIST**_ENABLED=true
 
@@ -107,13 +107,13 @@ Elasticsearch is a search engine based on Lucene. It provides a distributed, mul
 
 **Note: Java and Java version of Elastic Search must install on your system to use Elastic Search.**
 
-To install them, please go to ** https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-elasticsearch-on-ubuntu-14-04 ** and follow the instructions.
+To install them, please go to **https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-elasticsearch-on-ubuntu-14-04** and follow the instructions.
 
 **We use  'Elasticquent' package in laravel for elastic search.**
 
 Elasticquent makes working with Elasticsearch and Eloquent models easier by mapping them to Elasticsearch types. You can use the default settings or define how Elasticsearch should index and search your Eloquent models right in the model.
 
-To install this package, go to ** https://github.com/elasticquent/Elasticquent ** and follow the instructions
+To install this package, go to **https://github.com/elasticquent/Elasticquent** and follow the instructions
 
 Set Elsatic Search custom host:
 ```
@@ -148,7 +148,7 @@ Set ELastic Search  custom index name:
 
     'default_index' => env('ELASTIC_INDEX', 'my_custom_index'),
 ```
-###** .env file elements **###
+###**.env file elements**###
 **ELASTIC_HOSTS**=172.17.0.3:9200|172.17.0.3:9200
 **ELASTIC_INDEX**=index_name
 
