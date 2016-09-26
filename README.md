@@ -10,7 +10,7 @@ To configure JWT Auth on your system , please go to **https://github.com/tymonde
 
 *Note:* Please put full address of  'users' table model in jwt.php (in config) in user array key.
 ```
-/*
+    /*
     |--------------------------------------------------------------------------
     | User Model namespace
     |--------------------------------------------------------------------------
@@ -117,7 +117,7 @@ To install this package, go to **https://github.com/elasticquent/Elasticquent** 
 
 Set Elsatic Search custom host:
 ```
-/*
+    /*
     |--------------------------------------------------------------------------
     | Custom Elasticsearch Client Configuration
     |--------------------------------------------------------------------------
@@ -137,7 +137,7 @@ Set Elsatic Search custom host:
 
 Set ELastic Search  custom index name:
 ```
- /*
+    /*
     |--------------------------------------------------------------------------
     | Default Index Name
     |--------------------------------------------------------------------------
