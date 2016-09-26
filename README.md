@@ -116,7 +116,7 @@ Elasticquent makes working with Elasticsearch and Eloquent models easier by mapp
 
 To install this package, please go to https://github.com/elasticquent/Elasticquent and follow the instructions
 
-Set Elsatic Search custom host:
+Set Elastic Search custom host:
 ```
     /*
     |--------------------------------------------------------------------------
@@ -136,7 +136,7 @@ Set Elsatic Search custom host:
 
 ```
 
-Set ELastic Search  custom index name:
+Set Elastic Search  custom index name:
 ```
     /*
     |--------------------------------------------------------------------------
@@ -150,7 +150,7 @@ Set ELastic Search  custom index name:
     'default_index' => env('ELASTIC_INDEX', 'my_custom_index'),
 ```
 ###**.env file elements**###
-ELASTIC_HOSTS=172.17.0.3:9200|172.17.0.3:9200
+ELASTIC_HOSTS=172.17.0.2:9200|172.17.0.3:9200
 
 ELASTIC_INDEX=index_name
 
