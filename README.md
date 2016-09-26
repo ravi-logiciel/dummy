@@ -4,9 +4,9 @@ A JSON Web Token, or JWT, is used to send information that can be verified and t
 
 Because of it’s compact structure, JWT is usually used in HTTP Authorization headers or URL query parameters.
 
-** We use 0.5.* version of JWT.**
+**We use 0.5.* version of JWT.**
 
-To configure JWT Auth on your system , please go to ** https://github.com/tymondesigns/jwt-auth/wiki ** and follow the instructions.
+To configure JWT Auth on your system , please go to **https://github.com/tymondesigns/jwt-auth/wiki ** and follow the instructions.
 
 *Note:* Please put full address of  'users' table model in jwt.php (in config) in user array key.
 ```
