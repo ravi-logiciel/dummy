@@ -32,6 +32,7 @@ Route::group(['middleware' => ['jwt.auth']], function() {
 ```
 ###**.env file elements**###
 JWT_SECRET={sercret_token_string}
+
 JWT_BLACKLIST_ENABLED=true
 
 ###We can pass token in headers or directly in url.####
@@ -150,6 +151,7 @@ Set ELastic Search  custom index name:
 ```
 ###**.env file elements**###
 ELASTIC_HOSTS=172.17.0.3:9200|172.17.0.3:9200
+
 ELASTIC_INDEX=index_name
 
 ###  Elastic Search Re-Indexing ###
